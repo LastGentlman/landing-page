@@ -9,9 +9,9 @@
 
 <header class="sticky top-0 bg-white/80 backdrop-blur-sm border-b border-gray-100 z-50 transition-all duration-300">
   <div class="w-full px-6 py-4">
-    {/* Mobile Layout */}
+    <!-- Mobile Layout -->
     <div class="flex items-center justify-between md:hidden">
-      {/* Logo - Left aligned */}
+      <!-- Logo - Left aligned -->
       <div class="text-2xl font-bold tracking-tight">
         <a
           href="https://pedidolist.com"
@@ -21,7 +21,7 @@
         </a>
       </div>
 
-      {/* Mobile Menu Button */}
+      <!-- Mobile Menu Button -->
       <button
         on:click={toggleMobileMenu}
         class="text-gray-900 hover:text-gray-700"
@@ -33,9 +33,9 @@
       </button>
     </div>
 
-    {/* Desktop Layout */}
+    <!-- Desktop Layout -->
     <div class="hidden md:grid grid-cols-3 items-center w-full">
-      {/* Logo - Left aligned */}
+      <!-- Logo - Left aligned -->
       <div class="text-2xl font-bold tracking-tight justify-self-start">
         <a
           href="https://pedidolist.com"
@@ -45,7 +45,7 @@
         </a>
       </div>
 
-      {/* Desktop Navigation - Center aligned */}
+      <!-- Desktop Navigation - Center aligned -->
       <nav class="justify-self-center">
         <div class="flex items-center space-x-8">
           <a
@@ -74,7 +74,7 @@
         </div>
       </nav>
 
-      {/* CTA Button - Right aligned */}
+      <!-- CTA Button - Right aligned -->
       <div class="justify-self-end">
         <a
           href="https://app.pedidolist.com"
@@ -86,7 +86,7 @@
     </div>
   </div>
 
-  {/* Mobile Menu Dropdown */}
+  <!-- Mobile Menu Dropdown -->
   {#if mobileMenuOpen}
     <div class="md:hidden border-t border-gray-100 py-4 px-6 space-y-4 bg-white">
       <a
